@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         addcuilgenerate
 // @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
+// @version      0.5
+// @description  generaCuil
 // @author       You
 // @match        https://servicioscorp.anses.gob.ar/clavelogon/logon.aspx
+// @include      https://servicioscorp.anses.gob.ar/clavelogon/logon.aspx?system=mianses
 // ==/UserScript==
 
 (function() {
@@ -131,5 +132,7 @@
 
     };
 
-
+    var contra = document.querySelector('input[type="password"]');
+    contra.setAttribute('type','text');
+    contra.setAttribute('autocomplete','on');
 })();
