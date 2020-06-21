@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
-// @match        https://servicioscorp.anses.gob.ar/*
+// @match        https://servicioscorp.anses.gob.ar/clavelogon/logon.aspx
 // ==/UserScript==
 
 (function() {
