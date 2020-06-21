@@ -27,7 +27,7 @@
       <option value="MUJER">Mujer</option>
     </select><br>
     <label class="control-label">2) Generador de CUIL</label>
-    <input class="form-control" id="input-dni" placeholder="Ingrese DNI para obtener CUIL | 98% resultados correctos">
+    <input class="form-control" id="input-dni" maxlength="8" placeholder="Ingrese DNI para obtener CUIL | 98% resultados correctos">
     <style>
     .selec-dni{margin-bottom: 1em;}
     </style>
