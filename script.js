@@ -124,7 +124,7 @@
           console.log(example);
 
           // Generate cuit
-          const cuil_cuit = `${AB}${document_number}${C}`;
+          const cuil_cuit = `${AB}-${document_number}-${C}`;
           return cuil_cuit;
         }
         document.getElementById('Usuario').value = getCuilCuit(ndni, sexo);
