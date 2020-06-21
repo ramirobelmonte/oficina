@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         New Userscript
+// @name         addcuilgenerate
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
@@ -10,7 +10,7 @@
 (function() {
     'use strict';
     // Your code here...
-    padre = document.querySelector('.panel-body');
+    var padre = document.querySelector('.panel-body');
     const hijo = document.querySelector('.form-group:first-child');
 
     var dni = document.createElement('div');
@@ -128,7 +128,7 @@
           return cuil_cuit;
         }
         document.getElementById('Usuario').value = getCuilCuit(ndni, sexo);
-        
+
     };
 
 
