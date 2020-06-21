@@ -29,7 +29,12 @@
     <label class="control-label">2) Generador de CUIL</label>
     <input class="form-control" id="input-dni" maxlength="8" placeholder="Ingrese DNI para obtener CUIL | 98% resultados correctos">
     <style>
-    .selec-dni{margin-bottom: 1em;}
+      .selec-dni{margin-bottom: 1em;}
+      .form-group.dni-cuil{
+        border-bottom: .2em solid #FF5722;
+        padding-bottom: 1.2em;
+        margin-bottom:1.2em;
+      }
     </style>
     `;
 
