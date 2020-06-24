@@ -21,18 +21,22 @@
     dni.classList.add('dni-cuil');
 
     document.querySelector('.dni-cuil').innerHTML = `
+    <h1>Generador de CUIL</h1>
     <label class="control-label">1) Sexo:</label>
     <select class="selec-dni" id="selec-sexo">
+      <option>Seleccione</option>
       <option value="HOMBRE">Hombre</option>
       <option value="MUJER">Mujer</option>
     </select><br>
-    <label class="control-label">2) Generador de CUIL</label>
-    <input class="form-control" id="input-dni" maxlength="8" placeholder="Ingrese DNI para obtener CUIL | 98% resultados correctos">
+    <label class="control-label">2) Ingrese DNI</label>
+    <input class="form-control" id="input-dni" maxlength="8" placeholder="__.___.___">
     <style>
       .selec-dni{margin-bottom: 1em;}
       .form-group.dni-cuil{
         border-bottom: .2em solid #FF5722;
-        padding-bottom: 1.2em;
+        borde-radius: .5em;
+        background:#FF5722;
+        padding: 1.2em;
         margin-bottom:1.2em;
       }
     </style>
