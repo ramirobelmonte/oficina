@@ -39,6 +39,7 @@
         padding: 1.2em;
         margin-bottom:1.2em;
       }
+      .form-group.dni-cuil > h6 { margin: 0;}
     </style>
     `;
 
