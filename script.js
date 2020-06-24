@@ -6,6 +6,7 @@
 // @author       You
 // @match        https://servicioscorp.anses.gob.ar/clavelogon/logon.aspx
 // @include      https://servicioscorp.anses.gob.ar/clavelogon/logon.aspx?system=mianses
+// @include      https://servicioscorp.anses.gob.ar/clavelogon/logon.aspx?system=*
 // ==/UserScript==
 
 (function() {
